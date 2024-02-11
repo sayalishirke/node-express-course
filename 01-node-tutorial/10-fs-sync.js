@@ -6,7 +6,7 @@ const second = readFileSync('./content/second.txt', 'utf8')
 writeFileSync(
   './content/result-sync.txt',
   `Here is the result : ${first}, ${second}`,
-  { flag: 'a' }
+  { flag: 'a' }  //flag is to append 
 )
 console.log('done with this task')
 console.log('starting the next one')
